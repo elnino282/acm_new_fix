@@ -1,0 +1,238 @@
+﻿src/api/catalogApi.ts(1,28): error TS2307: Cannot find module '../shared/api/httpClient' or its corresponding type declarations.
+src/api/farmsApi.ts(1,28): error TS2307: Cannot find module '../shared/api/httpClient' or its corresponding type declarations.
+src/api/seasonsApi.ts(1,28): error TS2307: Cannot find module '../shared/api/httpClient' or its corresponding type declarations.
+src/api/tasksApi.ts(1,28): error TS2307: Cannot find module '../shared/api/httpClient' or its corresponding type declarations.
+src/app/routes.tsx(43,7): error TS2367: This comparison appears to be unintentional because the types 'UserRole | null' and '"admin"' have no overlap.
+src/app/routes.tsx(120,27): error TS2322: Type '"admin"' is not assignable to type 'UserRole | undefined'.
+src/components/MarkdownMessage.tsx(83,20): error TS2339: Property 'inline' does not exist on type 'ClassAttributes<HTMLElement> & HTMLAttributes<HTMLElement> & ExtraProps'.
+src/entities/document/api/hooks.ts(29,22): error TS2554: Expected 4 arguments, but got 3.
+src/entities/document/api/hooks.ts(43,22): error TS2554: Expected 4 arguments, but got 3.
+src/entities/document/api/hooks.ts(57,22): error TS2554: Expected 4 arguments, but got 3.
+src/entities/farm/api/client.ts(93,25): error TS18046: 'rawResult' is of type 'unknown'.
+src/entities/farm/api/client.ts(93,46): error TS18046: 'rawResult' is of type 'unknown'.
+src/entities/farm/api/client.ts(98,19): error TS18046: 'rawResult' is of type 'unknown'.
+src/entities/farm/api/client.ts(99,19): error TS18046: 'rawResult' is of type 'unknown'.
+src/entities/farm/api/client.ts(100,28): error TS18046: 'rawResult' is of type 'unknown'.
+src/entities/farm/api/client.ts(101,25): error TS18046: 'rawResult' is of type 'unknown'.
+src/entities/farm/api/hooks.ts(104,22): error TS2554: Expected 4 arguments, but got 3.
+src/entities/farm/api/hooks.ts(109,22): error TS2554: Expected 4 arguments, but got 3.
+src/entities/farm/api/hooks.ts(133,22): error TS2554: Expected 4 arguments, but got 3.
+src/entities/farm/api/hooks.ts(161,22): error TS2554: Expected 4 arguments, but got 3.
+src/features/admin/portal/AdminPortalWithShell.tsx(22,7): error TS2322: Type '"ADMIN"' is not assignable to type 'PortalType'.
+src/features/admin/reports-analytics/hooks/useReportsAnalytics.ts(79,51): error TS2554: Expected 0-1 arguments, but got 2.
+src/features/admin/reports-analytics/hooks/useReportsAnalytics.ts(89,36): error TS2559: Type 'number' has no properties in common with type 'ReportFilterParams'.
+src/features/admin/reports-analytics/hooks/useReportsAnalytics.ts(90,54): error TS2559: Type 'number' has no properties in common with type 'ReportFilterParams'.
+src/features/admin/reports-analytics/hooks/useReportsAnalytics.ts(96,39): error TS2559: Type 'number' has no properties in common with type 'ReportFilterParams'.
+src/features/admin/reports-analytics/hooks/useReportsAnalytics.ts(97,57): error TS2559: Type 'number' has no properties in common with type 'ReportFilterParams'.
+src/features/ai/hooks/useAiChatSession.ts(54,17): error TS2353: Object literal may only specify known properties, and 'userMessage' does not exist in type '{ question: string; context?: string | undefined; }'.
+src/features/ai/hooks/useAiChatSession.ts(57,44): error TS2339: Property 'assistantMessage' does not exist on type '{ answer: string; sources?: string[] | undefined; confidence?: number | undefined; }'.
+src/features/auth/context/AuthContext.tsx(4,52): error TS2305: Module '"@/entities/session"' has no exported member 'ProfileInfo'.
+src/features/auth/context/AuthContext.tsx(230,41): error TS2339: Property 'me' does not exist on type '{ signUp: (data: { role: "BUYER" | "FARMER"; password: string; username: string; }) => Promise<{ id: number; role: string; username: string; token: string; }>; signIn: (data: { password: string; username: string; }) => Promise<...>; signOut: (data: { ...; }) => Promise<...>; refresh: (data: { ...; }) => Promise<...>...'.
+src/features/auth/context/AuthContext.tsx(307,9): error TS2353: Object literal may only specify known properties, and 'identifier' does not exist in type '{ password: string; username: string; }'.
+src/features/auth/context/AuthContext.tsx(314,39): error TS2339: Property 'userId' does not exist on type '{ username: string; token: string; authenticated: boolean; roles: string[]; }'.
+src/features/auth/context/AuthContext.tsx(314,47): error TS2339: Property 'expiresIn' does not exist on type '{ username: string; token: string; authenticated: boolean; roles: string[]; }'.
+src/features/auth/context/AuthContext.tsx(314,58): error TS2339: Property 'role' does not exist on type '{ username: string; token: string; authenticated: boolean; roles: string[]; }'.
+src/features/auth/context/AuthContext.tsx(314,64): error TS2339: Property 'profile' does not exist on type '{ username: string; token: string; authenticated: boolean; roles: string[]; }'.
+src/features/auth/context/AuthContext.tsx(314,73): error TS2339: Property 'redirectTo' does not exist on type '{ username: string; token: string; authenticated: boolean; roles: string[]; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(12,5): error TS2305: Module '"@/entities/document"' has no exported member 'useAddFavorite'.
+src/features/farmer/documents/hooks/useDocuments.tsx(13,5): error TS2305: Module '"@/entities/document"' has no exported member 'useRemoveFavorite'.
+src/features/farmer/documents/hooks/useDocuments.tsx(14,5): error TS2305: Module '"@/entities/document"' has no exported member 'useRecordDocumentOpen'.
+src/features/farmer/documents/hooks/useDocuments.tsx(16,10): error TS2305: Module '"@/entities/document"' has no exported member 'DocumentListParams'.
+src/features/farmer/documents/hooks/useDocuments.tsx(21,20): error TS2339: Property 'documentId' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(22,21): error TS2339: Property 'documentId' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(24,14): error TS2339: Property 'url' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(27,16): error TS2339: Property 'crop' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(27,26): error TS2339: Property 'stage' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(27,37): error TS2339: Property 'topic' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(28,15): error TS2339: Property 'crop' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(29,16): error TS2339: Property 'stage' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(30,16): error TS2339: Property 'topic' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(32,20): error TS2339: Property 'createdAt' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(33,21): error TS2339: Property 'isFavorited' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(34,22): error TS2339: Property 'description' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }'.
+src/features/farmer/documents/hooks/useDocuments.tsx(84,27): error TS2339: Property 'items' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }[]'.
+src/features/farmer/documents/hooks/useDocuments.tsx(85,28): error TS2339: Property 'items' does not exist on type '{ title: string; id: number; content?: string | null | undefined; }[]'.
+src/features/farmer/documents/hooks/useDocuments.tsx(95,18): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/features/farmer/documents/hooks/useDocuments.tsx(103,37): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/features/farmer/documents/hooks/useDocuments.tsx(110,37): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/features/farmer/documents/hooks/useDocuments.tsx(117,37): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/features/farmer/documents/hooks/useDocuments.tsx(122,37): error TS7006: Parameter 'doc' implicitly has an 'any' type.
+src/features/farmer/documents/hooks/useDocuments.tsx(129,37): error TS7006: Parameter 'd' implicitly has an 'any' type.
+src/features/farmer/documents/hooks/useDocuments.tsx(220,34): error TS7006: Parameter 'd' implicitly has an 'any' type.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(54,28): error TS2339: Property 'amount' does not exist on type '{ id: number; itemName: string; quantity: number; unitPrice: number; expenseDate: string; userName?: string | undefined; seasonId?: number | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; seasonName?: string | undefined; totalCost?: number | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(58,27): error TS2339: Property 'category' does not exist on type '{ id: number; itemName: string; quantity: number; unitPrice: number; expenseDate: string; userName?: string | undefined; seasonId?: number | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; seasonName?: string | undefined; totalCost?: number | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(59,50): error TS2339: Property 'category' does not exist on type '{ id: number; itemName: string; quantity: number; unitPrice: number; expenseDate: string; userName?: string | undefined; seasonId?: number | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; seasonName?: string | undefined; totalCost?: number | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(60,29): error TS2339: Property 'taskTitle' does not exist on type '{ id: number; itemName: string; quantity: number; unitPrice: number; expenseDate: string; userName?: string | undefined; seasonId?: number | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; seasonName?: string | undefined; totalCost?: number | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(61,31): error TS2339: Property 'taskId' does not exist on type '{ id: number; itemName: string; quantity: number; unitPrice: number; expenseDate: string; userName?: string | undefined; seasonId?: number | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; seasonName?: string | undefined; totalCost?: number | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(64,31): error TS2339: Property 'plotId' does not exist on type '{ id: number; itemName: string; quantity: number; unitPrice: number; expenseDate: string; userName?: string | undefined; seasonId?: number | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; seasonName?: string | undefined; totalCost?: number | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(65,33): error TS2339: Property 'plotName' does not exist on type '{ id: number; itemName: string; quantity: number; unitPrice: number; expenseDate: string; userName?: string | undefined; seasonId?: number | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; seasonName?: string | undefined; totalCost?: number | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(68,24): error TS2339: Property 'note' does not exist on type '{ id: number; itemName: string; quantity: number; unitPrice: number; expenseDate: string; userName?: string | undefined; seasonId?: number | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; seasonName?: string | undefined; totalCost?: number | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(145,9): error TS2353: Object literal may only specify known properties, and 'sortBy' does not exist in type '{ size: number; page: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; from?: string | undefined; to?: string | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(153,32): error TS2339: Property 'taskId' does not exist on type '{ title: string; id: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; description?: string | null | undefined; userName?: string | undefined; seasonId?: number | undefined; ... 7 more ...; plannedDate?: string | ... 1 more ... | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(155,22): error TS2339: Property 'taskId' does not exist on type '{ title: string; id: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; description?: string | null | undefined; userName?: string | undefined; seasonId?: number | undefined; ... 7 more ...; plannedDate?: string | ... 1 more ... | undefined; }'.
+src/features/farmer/expense-management/hooks/useExpenseManagement.ts(294,25): error TS2353: Object literal may only specify known properties, and 'seasonId' does not exist in type '{ itemName: string; quantity: number; unitPrice: number; expenseDate: string; }'.
+src/features/farmer/expense-management/index.tsx(9,10): error TS2305: Module '"@/shared/ui"' has no exported member 'PageContainer'.
+src/features/farmer/farm-management/hooks/useCreateFarm.ts(14,13): error TS2322: Type 'null' is not assignable to type 'number | undefined'.
+src/features/farmer/farm-management/hooks/useCreateFarm.ts(15,13): error TS2322: Type 'null' is not assignable to type 'number | undefined'.
+src/features/farmer/farm-management/hooks/useCreateFarm.ts(26,17): error TS2322: Type 'null' is not assignable to type 'number | undefined'.
+src/features/farmer/farm-management/hooks/useCreateFarm.ts(27,17): error TS2322: Type 'null' is not assignable to type 'number | undefined'.
+src/features/farmer/farm-management/hooks/useCreateFarm.ts(73,25): error TS2345: Argument of type 'TFieldValues' is not assignable to parameter of type '{ name: string; provinceId: number; wardId: number; area?: string | number | null | undefined; }'.
+  Type 'FieldValues' is missing the following properties from type '{ name: string; provinceId: number; wardId: number; area?: string | number | null | undefined; }': name, provinceId, wardId
+src/features/farmer/farm-management/hooks/useFarmManagement.ts(328,9): error TS2322: Type 'string | boolean' is not assignable to type 'boolean'.
+  Type 'string' is not assignable to type 'boolean'.
+src/features/farmer/farm-management/pages/FarmDetailPage.tsx(89,11): error TS2353: Object literal may only specify known properties, and 'farmId' does not exist in type '{ size: number; page: number; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; from?: string | undefined; to?: string | undefined; cropId?: number | undefined; plotId?: number | undefined; }'.
+src/features/farmer/farm-management/pages/FarmDetailPage.tsx(212,38): error TS2339: Property 'plotName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/farm-management/pages/FarmDetailPage.tsx(213,38): error TS2339: Property 'cropName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/farm-management/pages/FarmDetailPage.tsx(214,41): error TS2339: Property 'varietyName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/farm-management/pages/FarmDetailPage.tsx(652,70): error TS2339: Property 'plotName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/farm-management/pages/FarmDetailPage.tsx(655,70): error TS2339: Property 'cropName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/farm-management/pages/FarmDetailPage.tsx(656,73): error TS2339: Property 'varietyName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/farm-management/pages/FarmsListPage.tsx(219,21): error TS2741: Property 'ownerUsername' is missing in type '{ name: string; id: number; active: boolean; area?: string | number | null | undefined; provinceId?: number | null | undefined; provinceName?: string | null | undefined; wardName?: string | null | undefined; wardId?: number | ... 1 more ... | undefined; }' but required in type '{ name: string; id: number; active: boolean; ownerUsername: string; area?: string | number | null | undefined; provinceId?: number | null | undefined; plots?: { name: string; id: number; area?: string | ... 2 more ... | undefined; status?: string | undefined; }[] | undefined; ... 4 more ...; activePlots?: number | u...'.
+src/features/farmer/farm-management/ui/CreatePlotInFarmDialog.tsx(123,17): error TS2561: Object literal may only specify known properties, but 'soilType' does not exist in type '{ plotName: string; area?: number | undefined; userId?: number | undefined; addressId?: number | undefined; soilTypeId?: number | undefined; plotStatusId?: number | undefined; }'. Did you mean to write 'soilTypeId'?
+src/features/farmer/farm-management/ui/FarmFormDialog.tsx(90,45): error TS2322: Type 'number | undefined' is not assignable to type 'number | null'.
+  Type 'undefined' is not assignable to type 'number | null'.
+src/features/farmer/farm-management/ui/FarmFormDialog.tsx(95,69): error TS2345: Argument of type 'number | null' is not assignable to parameter of type 'number'.
+  Type 'null' is not assignable to type 'number'.
+src/features/farmer/farm-management/ui/FarmFormDialog.tsx(185,41): error TS2322: Type 'number | null | undefined' is not assignable to type 'number | null'.
+  Type 'undefined' is not assignable to type 'number | null'.
+src/features/farmer/profile/components/EditProfileDialog.tsx(84,9): error TS2353: Object literal may only specify known properties, and 'fullName' does not exist in type '{ username: string; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(65,31): error TS2339: Property 'fullName' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(68,36): error TS2339: Property 'wardName' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(68,55): error TS2339: Property 'provinceName' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(72,36): error TS2339: Property 'joinedDate' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(83,23): error TS2339: Property 'email' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(84,23): error TS2339: Property 'phone' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(88,25): error TS2339: Property 'status' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(91,28): error TS2339: Property 'provinceId' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/profile/components/FarmerProfile.tsx(92,24): error TS2339: Property 'wardId' does not exist on type '{ id: string | number; username: string; roles?: { code?: string | undefined; name?: string | undefined; id?: number | undefined; description?: string | null | undefined; }[] | undefined; }'.
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(9,3): error TS2305: Module '"@/entities/season"' has no exported member 'useStartSeason'.
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(10,3): error TS2724: '"@/entities/season"' has no exported member named 'useCompleteSeason'. Did you mean 'useCreateSeason'?
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(11,3): error TS2724: '"@/entities/season"' has no exported member named 'useCancelSeason'. Did you mean 'useCreateSeason'?
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(22,27): error TS2339: Property 'cropName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(23,30): error TS2339: Property 'varietyName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(33,19): error TS2339: Property 'plotName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(34,19): error TS2339: Property 'farmName' does not exist on type '{ id: number; seasonName: string; cropId: number; plotId: number; startDate: string; status?: "ACTIVE" | "COMPLETED" | "CANCELLED" | "PLANNED" | "ARCHIVED" | undefined; createdAt?: string | undefined; ... 8 more ...; currentPlantCount?: number | undefined; }'.
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(97,15): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(101,15): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/features/farmer/seasons/hooks/useSeasonManagement.ts(105,15): error TS7006: Parameter 'err' implicitly has an 'any' type.
+src/features/farmer/tasks-today/hooks/useTasksToday.ts(37,25): error TS2339: Property 'taskId' does not exist on type '{ title: string; id: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; description?: string | null | undefined; userName?: string | undefined; seasonId?: number | undefined; ... 7 more ...; plannedDate?: string | ... 1 more ... | undefined; }'.
+src/features/farmer/tasks-today/hooks/useTasksToday.ts(38,36): error TS2339: Property 'taskId' does not exist on type '{ title: string; id: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; description?: string | null | undefined; userName?: string | undefined; seasonId?: number | undefined; ... 7 more ...; plannedDate?: string | ... 1 more ... | undefined; }'.
+src/features/farmer/tasks/hooks/useTaskWorkspace.ts(4,3): error TS2305: Module '"@/entities/task"' has no exported member 'useTasksWorkspace'.
+src/features/farmer/tasks/hooks/useTaskWorkspace.ts(60,20): error TS2367: This comparison appears to be unintentional because the types '"CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined' and '"OVERDUE"' have no overlap.
+src/features/farmer/tasks/hooks/useTaskWorkspace.ts(65,24): error TS2339: Property 'taskId' does not exist on type '{ title: string; id: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; description?: string | null | undefined; userName?: string | undefined; seasonId?: number | undefined; ... 7 more ...; plannedDate?: string | ... 1 more ... | undefined; }'.
+src/features/farmer/tasks/hooks/useTaskWorkspace.ts(147,53): error TS7006: Parameter 'task' implicitly has an 'any' type.
+src/features/farmer/tasks/hooks/useTaskWorkspace.ts(183,106): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/features/farmer/tasks/hooks/useTaskWorkspace.ts(208,63): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/features/farmer/tasks/hooks/useTaskWorkspace.ts(209,59): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/features/farmer/tasks/index.tsx(58,13): error TS2322: Type 'unknown[]' is not assignable to type 'string[]'.
+  Type 'unknown' is not assignable to type 'string'.
+src/features/farmer/tasks/index.tsx(59,13): error TS2322: Type 'unknown[]' is not assignable to type 'string[]'.
+  Type 'unknown' is not assignable to type 'string'.
+src/features/farmer/tasks/index.tsx(99,11): error TS2322: Type 'unknown[]' is not assignable to type 'string[]'.
+  Type 'unknown' is not assignable to type 'string'.
+src/features/farmer/tasks/index.tsx(100,11): error TS2322: Type 'unknown[]' is not assignable to type 'string[]'.
+  Type 'unknown' is not assignable to type 'string'.
+src/features/farmer/tasks/index.tsx(108,11): error TS2322: Type 'unknown[]' is not assignable to type 'string[]'.
+  Type 'unknown' is not assignable to type 'string'.
+src/pages/farmer/AiAssistantPage.tsx(11,5): error TS2305: Module '"@/shared/ui"' has no exported member 'PageContainer'.
+src/pages/farmer/AiAssistantPage.tsx(188,40): error TS2322: Type '"info"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | null | undefined'.
+src/pages/farmer/FieldLogsPage.tsx(8,5): error TS2305: Module '"@/entities/field-log/api/hooks"' has no exported member 'useUserSeasons'.
+src/pages/farmer/FieldLogsPage.tsx(13,10): error TS2305: Module '"@/entities/field-log/model/schemas"' has no exported member 'LOG_TYPES'.
+src/pages/farmer/FieldLogsPage.tsx(49,5): error TS2305: Module '"@/shared/ui"' has no exported member 'PageContainer'.
+src/pages/farmer/FieldLogsPage.tsx(86,13): error TS2353: Object literal may only specify known properties, and 'q' does not exist in type '{ size: number; page: number; type?: string | undefined; from?: string | undefined; to?: string | undefined; }'.
+src/pages/farmer/FieldLogsPage.tsx(100,9): error TS2322: Type '(error: AxiosError<{ message?: string; }>) => void' is not assignable to type '(error: Error, variables: { logDate: string; logType: string; notes?: string | undefined; }, onMutateResult: unknown, context: MutationFunctionContext) => unknown'.
+  Types of parameters 'error' and 'error' are incompatible.
+    Type 'Error' is missing the following properties from type 'AxiosError<{ message?: string | undefined; }, any>': isAxiosError, toJSON
+src/pages/farmer/FieldLogsPage.tsx(111,9): error TS2322: Type '(error: AxiosError<{ message?: string; }>) => void' is not assignable to type '(error: Error, variables: { id: number; data: { logDate: string; logType: string; notes?: string | undefined; }; }, onMutateResult: unknown, context: MutationFunctionContext) => unknown'.
+  Types of parameters 'error' and 'error' are incompatible.
+    Type 'Error' is missing the following properties from type 'AxiosError<{ message?: string | undefined; }, any>': isAxiosError, toJSON
+src/pages/farmer/FieldLogsPage.tsx(122,9): error TS2322: Type '(error: AxiosError<{ message?: string; }>) => void' is not assignable to type '(error: Error, variables: number, onMutateResult: unknown, context: MutationFunctionContext) => unknown'.
+  Types of parameters 'error' and 'error' are incompatible.
+    Type 'Error' is missing the following properties from type 'AxiosError<{ message?: string | undefined; }, any>': isAxiosError, toJSON
+src/pages/farmer/FieldLogsPage.tsx(130,23): error TS7006: Parameter 's' implicitly has an 'any' type.
+src/pages/farmer/FieldLogsPage.tsx(226,31): error TS7006: Parameter 't' implicitly has an 'any' type.
+src/pages/farmer/FieldLogsPage.tsx(252,33): error TS2322: Type '"accent"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | "ghost" | "link" | null | undefined'.
+src/pages/farmer/FieldLogsPage.tsx(298,52): error TS7006: Parameter 'season' implicitly has an 'any' type.
+src/pages/farmer/FieldLogsPage.tsx(317,53): error TS7006: Parameter 'type' implicitly has an 'any' type.
+src/pages/farmer/FieldLogsPage.tsx(483,53): error TS7006: Parameter 'type' implicitly has an 'any' type.
+src/pages/farmer/FieldLogsPage.tsx(519,29): error TS2322: Type '"accent"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | "ghost" | "link" | null | undefined'.
+src/pages/farmer/IncidentsPage.tsx(42,5): error TS2305: Module '"@/shared/ui"' has no exported member 'PageContainer'.
+src/pages/farmer/IncidentsPage.tsx(47,10): error TS2724: '"@/entities/season/api/hooks"' has no exported member named 'useMySeasons'. Did you mean 'useSeasons'?
+src/pages/farmer/IncidentsPage.tsx(49,5): error TS2724: '"@/entities/incident"' has no exported member named 'useIncidents'. Did you mean 'Incident'?
+src/pages/farmer/IncidentsPage.tsx(52,5): error TS2724: '"@/entities/incident"' has no exported member named 'useUpdateIncidentStatus'. Did you mean 'useUpdateIncident'?
+src/pages/farmer/IncidentsPage.tsx(54,5): error TS2305: Module '"@/entities/incident"' has no exported member 'useIncidentSummary'.
+src/pages/farmer/IncidentsPage.tsx(60,5): error TS2724: '"@/entities/incident"' has no exported member named 'IncidentStatusUpdateRequest'. Did you mean 'IncidentUpdateRequest'?
+src/pages/farmer/IncidentsPage.tsx(138,46): error TS2345: Argument of type '{ onSuccess: () => void; onError: (error: any) => void; }' is not assignable to parameter of type 'number'.
+src/pages/farmer/IncidentsPage.tsx(144,19): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/pages/farmer/IncidentsPage.tsx(149,46): error TS2345: Argument of type '{ onSuccess: () => void; onError: (error: any) => void; }' is not assignable to parameter of type 'number'.
+src/pages/farmer/IncidentsPage.tsx(155,19): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/pages/farmer/IncidentsPage.tsx(166,19): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/pages/farmer/IncidentsPage.tsx(171,46): error TS2345: Argument of type '{ onSuccess: () => void; onError: (error: any) => void; }' is not assignable to parameter of type 'number'.
+src/pages/farmer/IncidentsPage.tsx(177,19): error TS7006: Parameter 'error' implicitly has an 'any' type.
+src/pages/farmer/IncidentsPage.tsx(193,24): error TS2353: Object literal may only specify known properties, and 'seasonId' does not exist in type 'SetStateAction<Partial<{ description: string; severity: string; incidentType: string; deadline?: string | undefined; }>>'.
+src/pages/farmer/IncidentsPage.tsx(200,13): error TS2353: Object literal may only specify known properties, and 'seasonId' does not exist in type 'SetStateAction<Partial<{ description: string; severity: string; incidentType: string; deadline?: string | undefined; }>>'.
+src/pages/farmer/IncidentsPage.tsx(223,24): error TS2339: Property 'seasonId' does not exist on type 'Partial<{ description: string; severity: string; incidentType: string; deadline?: string | undefined; }>'.
+src/pages/farmer/IncidentsPage.tsx(232,13): error TS2353: Object literal may only specify known properties, and 'seasonId' does not exist in type '{ description: string; severity: string; incidentType: string; deadline?: string | undefined; }'.
+src/pages/farmer/IncidentsPage.tsx(232,33): error TS2339: Property 'seasonId' does not exist on type 'Partial<{ description: string; severity: string; incidentType: string; deadline?: string | undefined; }>'.
+src/pages/farmer/IncidentsPage.tsx(254,13): error TS2353: Object literal may only specify known properties, and 'incidentType' does not exist in type '{ status: string; description?: string | undefined; severity?: string | undefined; deadline?: string | undefined; resolvedAt?: string | undefined; }'.
+src/pages/farmer/IncidentsPage.tsx(260,34): error TS2339: Property 'incidentId' does not exist on type '{ id: number; description: string; seasonId: number; severity: string; incidentType: string; status?: string | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; deadline?: string | ... 1 more ... | undefined; resolvedAt?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/IncidentsPage.tsx(262,13): error TS2353: Object literal may only specify known properties, and 'seasonId' does not exist in type '{ id: number; data: { status: string; description?: string | undefined; severity?: string | undefined; deadline?: string | undefined; resolvedAt?: string | undefined; }; }'.
+src/pages/farmer/IncidentsPage.tsx(276,34): error TS2339: Property 'incidentId' does not exist on type '{ id: number; description: string; seasonId: number; severity: string; incidentType: string; status?: string | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; deadline?: string | ... 1 more ... | undefined; resolvedAt?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/IncidentsPage.tsx(288,26): error TS2339: Property 'incidentId' does not exist on type '{ id: number; description: string; seasonId: number; severity: string; incidentType: string; status?: string | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; deadline?: string | ... 1 more ... | undefined; resolvedAt?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/IncidentsPage.tsx(296,31): error TS2345: Argument of type '{ id: any; seasonId: number; }' is not assignable to parameter of type 'number'.
+src/pages/farmer/IncidentsPage.tsx(297,34): error TS2339: Property 'incidentId' does not exist on type '{ id: number; description: string; seasonId: number; severity: string; incidentType: string; status?: string | undefined; createdAt?: string | undefined; updatedAt?: string | undefined; deadline?: string | ... 1 more ... | undefined; resolvedAt?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/IncidentsPage.tsx(308,31): error TS2322: Type '"warning"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | null | undefined'.
+src/pages/farmer/IncidentsPage.tsx(321,31): error TS2322: Type '"info"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | null | undefined'.
+src/pages/farmer/IncidentsPage.tsx(323,31): error TS2322: Type '"success"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | null | undefined'.
+src/pages/farmer/IncidentsPage.tsx(408,54): error TS7006: Parameter 'season' implicitly has an 'any' type.
+src/pages/farmer/IncidentsPage.tsx(542,66): error TS7006: Parameter 'incident' implicitly has an 'any' type.
+src/pages/farmer/IncidentsPage.tsx(757,29): error TS2322: Type '"success"' is not assignable to type '"default" | "destructive" | "outline" | "secondary" | "ghost" | "link" | null | undefined'.
+src/pages/farmer/InventoryPage.tsx(2,10): error TS2300: Duplicate identifier 'Warehouse'.
+src/pages/farmer/InventoryPage.tsx(4,5): error TS2305: Module '"@/entities/inventory"' has no exported member 'useMyWarehouses'.
+src/pages/farmer/InventoryPage.tsx(5,5): error TS2724: '"@/entities/inventory"' has no exported member named 'useOnHandList'. Did you mean 'useOnHand'?
+src/pages/farmer/InventoryPage.tsx(6,5): error TS2305: Module '"@/entities/inventory"' has no exported member 'useMovements'.
+src/pages/farmer/InventoryPage.tsx(8,5): error TS2305: Module '"@/entities/inventory"' has no exported member 'useLocations'.
+src/pages/farmer/InventoryPage.tsx(9,10): error TS2300: Duplicate identifier 'Warehouse'.
+src/pages/farmer/InventoryPage.tsx(9,10): error TS2305: Module '"@/entities/inventory"' has no exported member 'Warehouse'.
+src/pages/farmer/InventoryPage.tsx(10,10): error TS2305: Module '"@/entities/inventory"' has no exported member 'OnHandRow'.
+src/pages/farmer/InventoryPage.tsx(13,10): error TS2305: Module '"@/entities/inventory"' has no exported member 'MovementsParams'.
+src/pages/farmer/InventoryPage.tsx(49,9): error TS2322: Type '{ warehouseId: number; locationId: number | undefined; q: string | undefined; page: number; size: number; } | undefined' is not assignable to type '{ warehouseId: number; locationId?: number | undefined; } | undefined'.
+  Object literal may only specify known properties, and 'q' does not exist in type '{ warehouseId: number; locationId?: number | undefined; }'.
+src/pages/farmer/InventoryPage.tsx(140,54): error TS2749: 'Warehouse' refers to a value, but is being used as a type here. Did you mean 'typeof Warehouse'?
+src/pages/farmer/InventoryPage.tsx(156,50): error TS7006: Parameter 'loc' implicitly has an 'any' type.
+src/pages/farmer/InventoryPage.tsx(425,81): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+src/pages/farmer/InventoryPage.tsx(429,73): error TS2345: Argument of type 'string | null' is not assignable to parameter of type 'string'.
+  Type 'null' is not assignable to type 'string'.
+src/pages/farmer/InventoryPage.tsx(430,72): error TS18047: 'mv.quantity' is possibly 'null'.
+src/pages/farmer/InventoryPage.tsx(430,106): error TS2339: Property 'unit' does not exist on type '{ id: number; movementType: string | null; warehouseId: number | null; supplyLotId: number | null; quantity: number | null; note?: string | null | undefined; seasonId?: number | null | undefined; ... 6 more ...; movementDate?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/InventoryPage.tsx(432,37): error TS2339: Property 'batchCode' does not exist on type '{ id: number; movementType: string | null; warehouseId: number | null; supplyLotId: number | null; quantity: number | null; note?: string | null | undefined; seasonId?: number | null | undefined; ... 6 more ...; movementDate?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/InventoryPage.tsx(434,37): error TS2339: Property 'locationLabel' does not exist on type '{ id: number; movementType: string | null; warehouseId: number | null; supplyLotId: number | null; quantity: number | null; note?: string | null | undefined; seasonId?: number | null | undefined; ... 6 more ...; movementDate?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/InventoryPage.tsx(435,37): error TS2339: Property 'seasonName' does not exist on type '{ id: number; movementType: string | null; warehouseId: number | null; supplyLotId: number | null; quantity: number | null; note?: string | null | undefined; seasonId?: number | null | undefined; ... 6 more ...; movementDate?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/InventoryPage.tsx(436,37): error TS2339: Property 'taskTitle' does not exist on type '{ id: number; movementType: string | null; warehouseId: number | null; supplyLotId: number | null; quantity: number | null; note?: string | null | undefined; seasonId?: number | null | undefined; ... 6 more ...; movementDate?: string | ... 1 more ... | undefined; }'.
+src/pages/farmer/SeasonsPage.tsx(24,3): error TS2305: Module '"@/shared/ui"' has no exported member 'PageContainer'.
+src/pages/farmer/SeasonsPage.tsx(26,3): error TS2305: Module '"@/shared/ui"' has no exported member 'AsyncState'.
+src/pages/farmer/SeasonsPage.tsx(27,3): error TS2305: Module '"@/shared/ui"' has no exported member 'ConfirmDialog'.
+src/pages/farmer/SeasonsPage.tsx(28,3): error TS2305: Module '"@/shared/ui"' has no exported member 'DataTablePagination'.
+src/pages/farmer/SeasonsPage.tsx(37,10): error TS2305: Module '"@/shared/lib"' has no exported member 'useDebounce'.
+src/pages/farmer/SeasonsPage.tsx(340,32): error TS7006: Parameter 'page' implicitly has an 'any' type.
+src/pages/farmer/SeasonsPage.tsx(341,36): error TS7006: Parameter 'size' implicitly has an 'any' type.
+src/pages/farmer/SuppliersSuppliesPage.tsx(15,10): error TS2305: Module '"@/entities/inventory"' has no exported member 'useMyWarehouses'.
+src/pages/farmer/SuppliersSuppliesPage.tsx(15,27): error TS2305: Module '"@/entities/inventory"' has no exported member 'useLocations'.
+src/pages/farmer/SuppliersSuppliesPage.tsx(15,46): error TS2305: Module '"@/entities/inventory"' has no exported member 'Warehouse'.
+src/pages/farmer/SuppliersSuppliesPage.tsx(15,62): error TS2305: Module '"@/entities/inventory"' has no exported member 'StockLocation'.
+src/pages/farmer/TasksWorkspacePage.tsx(23,3): error TS2305: Module '"@/shared/ui"' has no exported member 'PageContainer'.
+src/pages/farmer/TasksWorkspacePage.tsx(25,3): error TS2305: Module '"@/shared/ui"' has no exported member 'AsyncState'.
+src/pages/farmer/TasksWorkspacePage.tsx(26,3): error TS2305: Module '"@/shared/ui"' has no exported member 'ConfirmDialog'.
+src/pages/farmer/TasksWorkspacePage.tsx(27,3): error TS2305: Module '"@/shared/ui"' has no exported member 'DataTablePagination'.
+src/pages/farmer/TasksWorkspacePage.tsx(36,10): error TS2305: Module '"@/shared/lib"' has no exported member 'useDebounce'.
+src/pages/farmer/TasksWorkspacePage.tsx(44,5): error TS2353: Object literal may only specify known properties, and 'sortBy' does not exist in type '{ size: number; page: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; from?: string | undefined; to?: string | undefined; } | (() => { size: number; page: number; status?: "CANCELLED" | ... 3 more ... | undefined; from?: string | undefined; to?: string | undefined; })'.
+src/pages/farmer/TasksWorkspacePage.tsx(65,24): error TS2339: Property 'listWorkspace' does not exist on type '{ all: readonly ["task"]; lists: () => readonly ["task", "list"]; listBySeason: (seasonId: number, params?: { size: number; page: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; from?: string | undefined; to?: string | undefined; } | undefined) => readonly [...]; details: () => readonl...'.
+src/pages/farmer/TasksWorkspacePage.tsx(66,28): error TS2339: Property 'listWorkspace' does not exist on type '{ listBySeason: (seasonId: number, params?: { size: number; page: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; from?: string | undefined; to?: string | undefined; } | undefined) => Promise<...>; ... 4 more ...; delete: (id: number) => Promise<...>; }'.
+src/pages/farmer/TasksWorkspacePage.tsx(73,58): error TS2339: Property 'listWorkspace' does not exist on type '{ all: readonly ["task"]; lists: () => readonly ["task", "list"]; listBySeason: (seasonId: number, params?: { size: number; page: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; from?: string | undefined; to?: string | undefined; } | undefined) => readonly [...]; details: () => readonl...'.
+src/pages/farmer/TasksWorkspacePage.tsx(88,58): error TS2339: Property 'listWorkspace' does not exist on type '{ all: readonly ["task"]; lists: () => readonly ["task", "list"]; listBySeason: (seasonId: number, params?: { size: number; page: number; status?: "CANCELLED" | "PENDING" | "DONE" | "IN_PROGRESS" | undefined; from?: string | undefined; to?: string | undefined; } | undefined) => readonly [...]; details: () => readonl...'.
+src/pages/farmer/TasksWorkspacePage.tsx(234,31): error TS7006: Parameter 'task' implicitly has an 'any' type.
+src/pages/farmer/TasksWorkspacePage.tsx(277,32): error TS7006: Parameter 'page' implicitly has an 'any' type.
+src/pages/farmer/TasksWorkspacePage.tsx(278,36): error TS7006: Parameter 'size' implicitly has an 'any' type.
+src/pages/shared/hooks/useSignUpPage.ts(41,17): error TS2353: Object literal may only specify known properties, and 'email' does not exist in type '{ role: "BUYER" | "FARMER"; password: string; username: string; }'.
+src/widgets/layout/hooks/useAppShell.ts(121,30): error TS7006: Parameter 'prev' implicitly has an 'any' type.

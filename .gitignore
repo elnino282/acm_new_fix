@@ -1,0 +1,83 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.js
+
+# Build outputs
+build/
+dist/
+out/
+.next/
+*.tsbuildinfo
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Cache
+.cache/
+.eslintcache
+.parcel-cache/
+.vite/
+
+# Testing
+coverage/
+
+# Backend build (Java/Maven)
+target/
+*.class
+*.jar
+*.war
+
+# Eclipse/STS project files
+.classpath
+.project
+.factorypath
+.settings/
+.springBeans
+.sts4-cache/
+
+# IntelliJ IDEA (for backend)
+*.iml
+*.ipr
+*.iws
+
+# Maven wrapper (optional - remove if you want to keep wrapper in repo)
+.mvn/wrapper/maven-wrapper.jar
+
+# Build output logs
+**/build_output.txt
+**/compile_errors.txt
+**/compile_output.log
+**/compile_output.txt
+**/error_output.txt
+
+# SQL data files (large files)
+**/loc.sql
+
+# Index env file
+**/index.env
+
+# Misc
+*.bak
+*.tmp
